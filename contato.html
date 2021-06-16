@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Code - Contato</title>
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    </head>
+    <body class="colorPage">
+        <div class="containerPrincipal" id="topo">
+            <!--Cabeçalho da página-->
+            <header>
+                <!--Logo do site-->
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="imagem/logo.png" alt="logo site">
+                    </a>
+                </div>
+                <!--Links pra navegação do site-->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="clientes.html">Clientes</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="#topo">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!--Imagem de título-->
+            <div class="imgTitulo"><img src="imagem/contatoTitulo.png" alt="imagem de contato"></div>
+            <!--Contato-->
+            <section id="textContato">
+                <form name="meuForm" id="meuForm">
+                    <p class="nome">
+                        <label for="nome">Nome:</label><br>
+                        <input type="text" id="nomeid" placeholder="Ex.: Fulano da Bobilva" required="required" name="nome">
+                    </p>
+                    <p class="telefone">
+                        <label for="telefone">Telefone:</label><br>
+                        <input type="phone" id="telefoneid" placeholder="(xx)xxxx-xxxx" name="fone">
+                    </p>
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" required="required">
+                    </p>
+                    <p>
+                        <textarea placeholder="Insira sua mensagem aqui." required="required"></textarea>
+                    </p>
+                    <button type="submit" form="meuForm">Enviar</button>
+                </form>
+                <div id="contaData">
+                    <h4>Code - Desenvolvimento de sites</h4>
+                    <h5><img src="imagem/icoadress.png" alt="endereço"><br>Avenida Novos Conhecimentos nº 808</h5>
+                    <h5><img src="imagem/icoTelefone.png" alt="telefone"><br>+55 11 8080-8080</h5>
+                    <h5><img src="imagem/icoContato.png" alt="email"><br>contato@code.com.br</h5>
+                    <h5><img src="imagem/icoface.png" alt="facebook"><br>facebook.com\codedev</h5>
+                    <h5><img src="imagem/icoinsta.png" alt="instagram"><br>@codedev</h5>
+                </div>
+            </section>
+        </div>
+    </body>
+</html>

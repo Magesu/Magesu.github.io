@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Code - Desenvolvimento de site</title>
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    </head>
+    <body>
+        <div class="containerPrincipal">
+            <!--Cabeçalho da página-->
+            <header>
+                <!--Logo do site-->
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="imagem/logo.png" alt="logo site">
+                    </a>
+                </div>
+                <!--Links pra navegação do site-->
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="clientes.html">Clientes</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <!--Banner da homepage-->
+            <section id="banner">
+                <img src="imagem/banner.png" alt="bannerTopo">
+            </section>
+            <!--Pop-up 1-->
+            <div id="openModal" class="modalDialog">
+                <div>
+                    <a href="#close" title="close" class="close">X</a>
+                    <h1>Tudo sobre HTML</h1>
+                    <p><strong>HTML</strong> <i>(abreviação da expressão inglesa Hypertext Markup Language, que significa Linguagem de Marcação de Hipertexto)</i> é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.</p>
+                    <p style="text-align: right;"><i>wikipedia.org - acesso em 09/2016</i></p>
+                    <img src="imagem/html5-logo.png" alt="HTML logo">
+                </div>
+            </div>
+            <!--Pop-up 2-->
+            <div id="openModal1" class="modalDialog">
+                <div>
+                    <a href="#close" title="close" class="close">X</a>
+                    <h1>Tecnologia - Realidade Aumentada</h1>
+                    <p>De uma forma simples, <b>realidade aumentada</b> é uma tecnologia que permite que o mundo virtual seja misturado com o real, possibilitando maior interação e abrindo uma nova dimensão na maneira que nós executamos tarefas, ou mesmo as que nós incubimos às máquinas. Assim, se você pensava que objetos pulando para fora da tela eram elementos de filmes de ficção científica, está na hora de mudar seus conceitos. Aliás, o que acontece com a <b>realidade aumentada</b> é o contrário: você pulará para dentro do mundo virtual para interagir com objetos que só estão limitados à sua imaginação.</p>
+                    <p style="text-align: right;"><i>tecmundo.com.br/realidade-aumentada - acesso em 09/2016</i></p>
+                </div>
+            </div>
+            <!--Pop-up 3-->
+            <div id="openModal2" class="modalDialog">
+                <div>
+                    <a href="#close" title="close" class="close">X</a>
+                    <h1>Acessibilidade</h1>
+                    <p><b>Acessibilidade</b> na Web significa que as pessoas com deficiência podem usar a Web. Mais especificamente, a acessibilidade na Web significa que as pessoas com deficiência podem perceber, entender, navegar, interagir e contribuir para a Web. Ela também benificia outras pessoas, incluindo pessoas idosas com capacidades em mudança devido ao envelhecimento.</p>
+                    <p style="text-align: right;"><i>wrc.br/ - acesso em 09/2016</i></p>
+                </div>
+            </div>
+            <!--Rodapé da página-->
+            <footer>
+                <div class="footer-text">
+                    <h3>Tudo sobre HTML</h3>
+                    <p>Saiba o que é <a href="#openModal">HTML</a>, e como sua empresa pode usufruir de sites dinâmicos e funcionais.</p>
+                </div>
+                <div class="footer-text">
+                    <h3>Tecnologia</h3>
+                    <p>Você sabe o que é <a href="#openModal1">realidade aumentada</a>? Entenda como essa nova tecnologia funciona.</p>
+                </div>
+                <div class="footer-text">
+                    <h3>Acessibilidade</h3>
+                    <p>Torne seu site <a href="#openModal2">acessível</a> utilizando 5 dicas indispensáveis para qualquer site.</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
